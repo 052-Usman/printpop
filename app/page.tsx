@@ -1,11 +1,11 @@
 import { PHONE_MODELS } from '@/data/phones';
 import PhoneModelCard from '@/components/PhoneModelCard';
-import { Navbar } from '@/components/Navbar';
+
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <Navbar currentStep="select" />
+
 
       <main className="container mx-auto px-4 py-8 md:py-12">
         <div className="text-center mb-10 space-y-2">
