@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Comic_Neue, Montserrat } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/Navbar";
+import { Navbar } from "@/components/navbar/Navbar";
 
 const comicNeue = Comic_Neue({
   variable: "--font-comic-neue",
@@ -19,9 +19,6 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Printpop",
   description: "Printpop - Your one-stop shop for all your printing needs.",
-  icons: {
-    icon: "/favicon.ico",
-  },
 };
 
 export default function RootLayout({

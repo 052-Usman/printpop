@@ -7,7 +7,7 @@ import { getPhoneModelById } from '@/data/phones';
 import CanvasEditor from '@/components/CanvasEditor';
 import EditorControls from '@/components/EditorControls';
 import { exportCanvasAsImage } from '@/lib/canvas-utils';
-import { Navbar } from '@/components/Navbar';
+import { Navbar } from '@/components/navbar/Navbar';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { ShoppingCart, Eye, Zap, RefreshCcw, Truck, MoveLeft } from 'lucide-react';

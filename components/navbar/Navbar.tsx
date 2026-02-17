@@ -3,11 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { NAV_LINKS } from "./navbar/nav-data";
-import { UserActions } from "./navbar/user-actions";
-import { Search } from "./navbar/search";
-import { Logo } from "./navbar/logo";
-import { MobileMenu } from "./navbar/mobile-menu";
+import { NAV_LINKS } from "./nav-data";
+import { UserActions } from "./user-actions";
+import { Search } from "./search";
+import { Logo } from "./logo";
+import { MobileMenu } from "./mobile-menu";
 
 export function Navbar() {
   const pathname = usePathname();
