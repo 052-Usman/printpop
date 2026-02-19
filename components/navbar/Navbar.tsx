@@ -13,8 +13,8 @@ export function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-[#373737] backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="flex h-16 items-center justify-between px-4 md:px-8">
+    <header className="sticky top-0 z-50 w-full border-b border-[#373737] backdrop-blur supports-backdrop-filter:bg-background/60">
+      <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-4 md:px-8">
         
         {/* Left Section: Mobile Menu + Logo */}
         <div className="flex items-center gap-2">
@@ -38,7 +38,7 @@ export function Navbar() {
               key={link.href}
               href={link.href}
               className={cn(
-                "p-2 text-base font-medium transition-colors hover:text-primary hover:bg-primary/10 rounded-[10px]",
+                "p-2 text-base font-medium font-comic-sans transition-colors hover:text-primary hover:bg-primary/10 rounded-[10px]",
                 pathname === link.href ? "text-primary" : "text-foreground"
               )}
             >

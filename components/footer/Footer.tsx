@@ -4,12 +4,12 @@ import { Twitter, Instagram, Linkedin } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="bg-black text-white py-8 px-6 md:px-12 lg:px-24">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <footer className="bg-black text-white py-8">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {/* Brand Section */}
         <div className="space-y-6">
           <Link href="/" className="inline-block relative">
-             <Image
+            <Image
               src="/printpop-logo.svg"
               alt="PrintPop"
               width={160}
@@ -26,7 +26,7 @@ export function Footer() {
         {/* Shop Section */}
         <div className="space-y-6">
           <div className="flex items-center gap-3">
-            <div className="w-1 h-6 bg-gradient-to-b from-[#FF3131] to-[#FF3131]/0 rounded-full" />
+            <div className="w-1 h-6 bg-linear-to-b from-[#FF3131] to-[#FF3131]/0 rounded-full" />
             <h3 className="text-sm font-semibold tracking-wider uppercase">
               Shop
             </h3>
@@ -53,7 +53,7 @@ export function Footer() {
         {/* Support Section */}
         <div className="space-y-6">
           <div className="flex items-center gap-3">
-            <div className="w-1 h-6 bg-gradient-to-b from-[#5CE1E6] to-[#5CE1E6]/0 rounded-full" />
+            <div className="w-1 h-6 bg-linear-to-b from-[#5CE1E6] to-[#5CE1E6]/0 rounded-full" />
             <h3 className="text-sm font-semibold tracking-wider uppercase">
               Support
             </h3>
@@ -83,7 +83,7 @@ export function Footer() {
         {/* Connect Section */}
         <div className="space-y-6">
           <div className="flex items-center gap-3">
-            <div className="w-1 h-6 bg-gradient-to-b from-[#D946EF] to-[#D946EF]/0 rounded-full" />
+            <div className="w-1 h-6 bg-linear-to-b from-[#D946EF] to-[#D946EF]/0 rounded-full" />
             <h3 className="text-sm font-semibold tracking-wider uppercase">
               Connect
             </h3>
@@ -124,7 +124,7 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 mt-16 pt-8 border-t border-gray-900 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-gray-600 text-xs">
           &copy; {new Date().getFullYear()} Printpop Inc. All rights reserved.
         </p>
