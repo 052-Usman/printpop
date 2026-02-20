@@ -7,7 +7,7 @@ export const Locations = () => {
             <span className="text-primary font-bold tracking-widest uppercase text-sm mb-2 block">
               Visit Us IRL
             </span>
-            <h2 className="font-neon text-4xl md:text-5xl font-bold text-white mb-6">
+            <h2 className="font-neon text-3xl md:text-4xl font-bold text-white mb-6">
               <span className="text-shadow-[0_0_30px_#FF3131]">PRINTPOP</span> <span className="text-neon-red">LOCATIONS</span>
             </h2>
             <p className="text-gray-400 font-comic text-lg mb-8 leading-relaxed">

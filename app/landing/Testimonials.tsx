@@ -9,7 +9,7 @@ export const Testimonials = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          <h2 className="font-neon text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="font-neon text-3xl md:text-4xl font-bold text-white mb-4">
             <span className="text-shadow-[0_0_30px_#5CE1E6]">CLIENT</span> <span className="text-neon-blue">SUCCESS</span> <span className="text-shadow-[0_0_30px_#5CE1E6]">STORIES</span>
           </h2>
           <div className="h-1 w-24 bg-linear-to-r from-secondary to-primary mx-auto rounded-full shadow-[0_0_10px_rgba(255,49,49,0.3)]"></div>

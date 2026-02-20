@@ -14,7 +14,7 @@ export const PopularProducts = () => {
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-20 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-          <h2 className="font-neon text-4xl md:text-5xl font-bold text-white mb-6 tracking-tighter">
+          <h2 className="font-neon text-3xl md:text-4xl font-bold text-white mb-6 tracking-tighter">
             <span className="text-neon-red">POPULAR</span> <span className="text-shadow-[0_0_30px_#FF2E63]">PRODUCTS</span>
           </h2>
           <div className="h-1.5 w-24 bg-linear-to-r from-primary to-secondary mx-auto rounded-full shadow-[0_0_10px_rgba(92,225,230,0.5)]"></div>

@@ -12,7 +12,7 @@ export const Customization = () => {
               <span className="text-primary font-bold tracking-widest uppercase text-sm mb-2 block">
                 Create Your Own
               </span>
-              <h2 className="font-neon text-4xl md:text-5xl font-bold text-white mb-6 uppercase leading-tight">
+              <h2 className="font-neon text-3xl md:text-4xl font-bold text-white mb-6 uppercase leading-tight">
                 <span className="text-shadow-[0_0_30px_rgba(92,225,230,0.8)]">Customize Your</span> <br />
                 <span className="text-shadow-[0_0_30px_rgba(92,225,230,0.8)] text-neon-blue">Mobile Phone</span>
               </h2>

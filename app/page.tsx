@@ -8,6 +8,7 @@ import { Customization } from "@/app/landing/Customization";
 import { Testimonials } from "@/app/landing/Testimonials";
 import { Stats } from "@/app/landing/Stats";
 import { PopularProducts } from "@/app/landing/PopularProducts";
+import { FAQs } from "@/app/landing/FAQs";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <PopularProducts />
       <Customization />
       <Stats />
+      <FAQs />
     </div>
   );
 }
