@@ -48,7 +48,7 @@ export const Customization = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 relative group animate-in fade-in slide-in-from-right-4 duration-1000">
+          <div className="hidden md:block md:w-1/2 relative group animate-in fade-in slide-in-from-right-4 duration-1000">
             <div className="absolute inset-0 bg-linear-to-tr from-primary to-secondary blur-[80px] opacity-20 rounded-full group-hover:opacity-40 transition-opacity duration-700"></div>
             <img
               alt="Custom Phone Case Builder - Create Your Own Design"

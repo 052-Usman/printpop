@@ -38,7 +38,7 @@ export const Hero = () => {
                 </div>
 
                 {/* Right Content - Hero Image */}
-                <div className="relative lg:h-[600px] flex items-center justify-center">
+                <div className="hidden lg:flex relative lg:h-[600px] items-center justify-center">
                     <div
                         className="relative w-80 h-[500px] bg-linear-to-br from-gray-900 to-black rounded-[3rem] border-4 border-gray-800 shadow-[0_0_50px_rgba(92,225,230,0.3)] transform -rotate-12 hover:rotate-0 transition-all duration-700 z-10">
                         <img alt="Neon Phone Case Blue"

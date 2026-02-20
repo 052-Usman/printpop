@@ -45,7 +45,7 @@ export const FAQs = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left Side: Illustration */}
-          <div className="relative group animate-in fade-in slide-in-from-left-4 duration-1000 order-2 lg:order-1">
+          <div className="hidden lg:block relative group animate-in fade-in slide-in-from-left-4 duration-1000 order-2 lg:order-1">
             <div className="absolute inset-0 z-0 pointer-events-none">
               <div className="absolute -top-28 left-[70%] w-[180px] h-[180px] bg-secondary opacity-20 blur-[120px] rounded-full mix-blend-screen animate-pulse duration-4000"></div>
             </div>
