@@ -3,6 +3,7 @@ import { TrustedBy } from "@/app/landing/TrustedBy";
 import { TrendingStyles } from "@/app/landing/TrendingStyles";
 import { Locations } from "@/app/landing/Locations";
 import { CTA } from "@/app/landing/CTA";
+import { DesignCase } from "@/app/landing/DesignCase";
 import { Customization } from "@/app/landing/Customization";
 import { Testimonials } from "@/app/landing/Testimonials";
 import { Stats } from "@/app/landing/Stats";
@@ -15,6 +16,7 @@ export default function Home() {
       <TrendingStyles />
       <Locations />
       <CTA />
+      <DesignCase />
       <Testimonials />
       <Customization />
       <Stats />
