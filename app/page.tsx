@@ -7,6 +7,7 @@ import { DesignCase } from "@/app/landing/DesignCase";
 import { Customization } from "@/app/landing/Customization";
 import { Testimonials } from "@/app/landing/Testimonials";
 import { Stats } from "@/app/landing/Stats";
+import { PopularProducts } from "@/app/landing/PopularProducts";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <CTA />
       <DesignCase />
       <Testimonials />
+      <PopularProducts />
       <Customization />
       <Stats />
     </div>

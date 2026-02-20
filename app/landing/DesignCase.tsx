@@ -17,7 +17,7 @@ export const DesignCase = () => {
           </div>
 
           {/* Center Line (Desktop Only) */}
-          <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-px h-2/3 bg-linear-to-b from-transparent via-white/10 to-transparent z-20"></div>
+          <div className="hidden md:block absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[3px] h-[72px] bg-linear-to-b from-[#5CE1E6] to-[#FF3366] rounded-[7499.25px] z-20"></div>
 
           {/* Right Column: Text (order-1 on mobile, order-2 on desktop) */}
           <div className="md:w-1/2 space-y-8 animate-in fade-in slide-in-from-right-4 duration-1000 order-1 md:order-2">

@@ -4,7 +4,7 @@ import customizationCover from "@/public/images/printpop-customization-cover.jpg
 
 export const Customization = () => {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative pb-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <SectionCard className="flex flex-col md:flex-row items-center gap-16">
           <div className="md:w-1/2 space-y-8 animate-in fade-in slide-in-from-left-4 duration-1000">
