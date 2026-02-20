@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SectionCard } from "@/components/landing/SectionCard";
+import ctaCover from "@/public/images/printpop-cta-cover.png"
 
 export const CTA = () => {
   return (
@@ -47,7 +48,7 @@ export const CTA = () => {
             <div className="absolute inset-0 bg-linear-to-tr from-primary to-secondary blur-[80px] opacity-20 rounded-full group-hover:opacity-40 transition-opacity duration-700"></div>
             <img alt="Custom Case Builder"
               className="relative z-10 w-full rounded-2xl border-2 border-gray-700 shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFZOSkULKkqkiG0KlTjWZsPTBR_nebuWfXNhrC0ksIw25qxLRD5jy0OMzYHs6Q3oodrSJEFCjdqBDLMQd4inYTIrQx1HY9-L0AXX3eWO9LambRRcAhvi-0Xw1EQPrZAKG7AeJLZ9XTZBERQcNw0wQshjBGIER_LCy0NZAvdpC3rwV-yprTDr3tTVMCO7XCMrtVIkj5wUQeWfTza6FUE9JXSeEGcGMCDwcle7yRN6r3gxbUQXpFMCvNP0mHAeMIljQx5lboSFGnMiuX" />
+              src={ctaCover.src} />
 
           {/* Decorative Badge */}
           {/* <div className="absolute -bottom-6 -right-6 bg-black/80 backdrop-blur-xl border border-white/10 p-5 rounded-2xl shadow-2xl z-20 hidden md:block group-hover:scale-110 transition-transform duration-500">
