@@ -220,7 +220,8 @@ export const addImageToCanvas = (
 export const addTextToCanvas = (
   canvas: any,
   text: string = 'Double click to edit',
-  safeArea: SafeArea
+  safeArea: SafeArea,
+  options: any = {}
 ): any => {
   const fabricText = new fabric.IText(text, {
     left: canvas.width / 2,
@@ -234,6 +235,7 @@ export const addTextToCanvas = (
     cornerColor: '#4f46e5',
     cornerSize: 10,
     transparentCorners: false,
+    ...options,
   });
 
   // Apply safe area clipping
@@ -271,6 +273,15 @@ export const updateObjectRotation = (
   angle: number
 ): void => {
   object.rotate(angle);
+  canvas.renderAll();
+};
+
+export const updateObjectColor = (
+  canvas: any,
+  object: any,
+  color: string
+): void => {
+  object.set({ fill: color });
   canvas.renderAll();
 };
 

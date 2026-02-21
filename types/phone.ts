@@ -31,4 +31,4 @@ export interface CanvasState {
   selectedElement: DesignElement | null;
 }
 
-export type CaseType = 'standard' | 'magsafe';
+export type CaseType = 'standard' | 'magsafe' | 'impact' | 'bio';

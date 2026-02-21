@@ -47,10 +47,10 @@ export default function CanvasEditor({
       const outline = createSafeAreaOutline(safeArea);
       canvas.add(outline);
       canvas.bringObjectToFront(outline);
-      
+
       // Store safe area on canvas for use by editor controls
       (canvas as any).safeArea = safeArea;
-      
+
       canvas.renderAll();
       setIsLoading(false);
     }).catch((error) => {
@@ -91,10 +91,10 @@ export default function CanvasEditor({
     <div className="relative">
       {/* Loading Overlay */}
       {isLoading && (
-        <div className="absolute inset-0 bg-white/80 dark:bg-black/80 backdrop-blur-sm flex items-center justify-center z-10 rounded-xl">
+        <div className="absolute inset-0 bg-background/80 backdrop-blur-sm flex items-center justify-center z-10 rounded-xl border border-white/5">
           <div className="flex flex-col items-center gap-3">
-            <div className="w-12 h-12 border-4 border-blue-500 border-t-transparent rounded-full animate-spin" />
-            <p className="text-sm font-medium text-gray-600 dark:text-gray-400">
+            <div className="w-12 h-12 border-4 border-primary border-t-transparent rounded-full animate-spin shadow-[0_0_15px_rgba(92,225,230,0.5)]" />
+            <p className="text-sm font-medium text-primary">
               Loading case...
             </p>
           </div>
