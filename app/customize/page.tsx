@@ -213,8 +213,8 @@ function CustomizeContent() {
             </div>
           </div>
 
-          {/* Price & Action Block */}
-          <div className="bg-[#112238]/60 border border-white/10 rounded-2xl p-6 space-y-5 backdrop-blur-md shadow-2xl">
+          {/* Price & Action Block (Desktop) */}
+          <div className="hidden lg:block bg-[#112238]/60 border border-white/10 rounded-2xl p-6 space-y-5 backdrop-blur-md shadow-2xl">
             <div className="flex justify-between items-end">
               <div className="space-y-1">
                 <p className="text-[9px] text-muted-foreground font-black uppercase tracking-[0.2em]">Total Price</p>
@@ -292,6 +292,30 @@ function CustomizeContent() {
             </div>
           </div>
 
+
+          {/* Price & Action Block (Mobile) */}
+          <div className="lg:hidden bg-[#112238]/60 border border-white/10 rounded-2xl p-6 space-y-5 backdrop-blur-md shadow-2xl mt-4">
+            <div className="flex justify-between items-end">
+              <div className="space-y-1">
+                <p className="text-[9px] text-muted-foreground font-black uppercase tracking-[0.2em]">Total Price</p>
+                <h2 className="text-4xl font-neon font-black text-white">$ {phoneModel.price.toFixed(2)}</h2>
+              </div>
+              <div className="flex items-center gap-1.5 bg-green-500/10 text-green-400 px-3 py-1.5 rounded-full text-[9px] font-black tracking-widest border border-green-500/20">
+                <div className="w-1 h-1 bg-green-400 rounded-full animate-pulse shadow-[0_0_5px_rgba(74,222,128,0.5)]" />
+                IN STOCK
+              </div>
+            </div>
+
+            <Button
+              size="lg"
+              className="w-full h-14 text-xs font-neon font-black btn-brand-gradient text-white rounded-xl shadow-[0_0_25px_rgba(255,49,49,0.3)] hover:shadow-[0_0_40px_rgba(255,49,49,0.5)] transition-all duration-500 group uppercase tracking-[0.2em]"
+              onClick={handleAddToCart}
+              disabled={!canvas}
+            >
+              ADD TO CART
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="4" className="w-4 h-4 ml-3 group-hover:translate-x-1.5 transition-transform duration-300"><line x1="5" y1="12" x2="19" y2="12" /><polyline points="12 5 19 12 12 19" /></svg>
+            </Button>
+          </div>
         </div>
 
       </div>
